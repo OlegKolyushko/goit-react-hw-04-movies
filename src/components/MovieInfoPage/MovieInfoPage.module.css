@@ -1,0 +1,47 @@
+.goBack {
+  margin-top: 15px;
+  background-color: palevioletred;
+  font-style: 14px;
+  transition: 150ms;
+  border: none;
+  border-radius: 5px;
+}
+.goBack:hover {
+  font-size: 18px;
+  transition: 150ms;
+  cursor: pointer;
+}
+.title {
+  font-weight: 700;
+}
+.overview {
+  font-weight: 500;
+  font-size: 18px;
+}
+.logo {
+  margin-bottom: 10px;
+}
+.casts,
+.reviews {
+  text-decoration: none;
+  color: gray;
+}
+.activeCasts,
+.activeReviews {
+  color: palevioletred;
+  font-size: 22px;
+  transition: 150ms;
+}
+/* .reviews {
+    text-decoration: none;
+} */
+/* .activeReviews {
+
+} */
+.list {
+  list-style-type: none;
+}
+.item {
+  margin-top: 10px;
+  font-size: 18px;
+}
