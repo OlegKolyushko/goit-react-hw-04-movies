@@ -37,7 +37,7 @@ export default class MovieinfoPage extends Component {
     if (state && state.from) {
       this.props.history.push(state.from);
     } else {
-      this.props.history.push(routes.MoviesPage);
+      this.props.history.push(routes.HomePage);
     }
   };
   render() {

@@ -10,10 +10,11 @@ function PopularFilmItem({ title, image, rating, movieId, location }) {
     <li className={styles.item}>
       <NavLink className={styles.link} to={{ pathname: `/movies/${movieId}`, state: { from: location } }}>
         {title}
-      </NavLink>
       <span className={styles.raiting}>{rating}</span>
 
       <img className={styles.logo} src={logo} alt="" />
+      </NavLink>
+
     </li>
   );
 }
